@@ -1,0 +1,435 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+}
+.container{
+    background-color: #0065c3;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.box1>ul>li{
+    display: inline-block;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 35px;
+    color: white;
+    padding-left: 20px;
+    font-weight: bold;
+}
+img{
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.box2{
+    margin-right: 0px;
+    margin-top: 30px;
+    margin-left: 350px;
+
+}
+.box1{
+    margin-left: 50PX;
+}
+.box2>button{
+    border-radius: 50px;
+    padding: 5px 25px;
+    text-transform: uppercase;
+    background-color: inherit;
+    border:2px solid white;
+    color: white;
+    font-weight: bold;
+}
+.box2>button:hover{
+    background-color: white;
+    color: #0065c3;
+    cursor: pointer;
+}
+.container2{
+    height: 530px;
+    background-image: url("pepsi.comimages/backgroundpepsi.png");
+    display: flex;
+}
+.contchild>img{
+    width: 649px;
+    height: 520px;
+}
+.contchild{
+    width: 649px;
+    height: 534px;
+}
+.contchild2{
+    width: 649px;
+    height: 534px;
+    margin-top: 30px;
+}
+.contchild2>img{
+    width: 430px;
+    height: 280px;
+}
+.contchild2>button{
+    margin-left: 170px;
+    border-radius: 50PX;
+    padding: 10px 30px;
+    background-color: inherit;
+    border:2px solid white;
+    color: white;
+    font-weight: bold;
+}
+.contchild2>p{
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+.container3{
+    width: 100%;
+    height: 600.19px;
+    background-color: #000;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    background-image: url(pepsi.comimages/pzs-can-nobug-mobile@3x.png);
+    /* background-position-x: -200px;
+    background-position-y: -120px; */
+    background-size: contain;
+    background-repeat: no-repeat;
+
+   
+}
+/* .cont31>img{
+    width:800px ;
+    height: 700px;
+
+}
+.cont31{
+    width: 649px;
+    height: 534px;}
+
+.cont32{
+    width: 649px;
+    height: 534px;
+}
+.cont32>img{
+    width: 485px;
+    height: 273px;
+    margin-top: 100px;
+    margin-left: 100px;
+} */
+/* .cont31{
+    width: 100%;
+    height: 534px;
+    margin: 0PX;
+    padding: 0px;
+}
+.cont31>img{
+    width: 100%;
+    height: 534px;
+} */
+.taste{
+    width: 186px;
+    height: 186px;
+    position: absolute;
+    top: 70px;
+    left: 380px;
+}
+.cont31{
+    height: 600.19px;
+    width: 745px;
+    /* background-image: url(pepsi.comimages/pzs-can-nobug-mobile@3x.png);
+    background-position-x: -120px;
+    background-position-y: -120px; */
+     position: relative;
+} 
+/* .cont32{
+    width: 745px;
+    height: 445.19px;
+    background-color: #000;
+} */
+.cont32{
+    width: 745px;
+    height: 445.19px;
+
+}
+.cont32>img{
+    margin-top: 70px;
+    width: 485px;
+    height: 273px;
+}
+.believe{
+    width: 349.37px;
+    height: 25.216px;
+    margin-top: 22px;
+    margin-left: 90px;
+}
+.container4{
+    background-image: url(pepsi.comimages/Desktop_Background.png);
+    background-position: cover;
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+.cont41{
+    display: flex;
+    width: 450px;
+    height: 600px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.cont41>img{
+    width: 450px;
+    height: 522px;
+}
+.cont42{
+    width: 450px;
+    height: 600px;
+}
+.cont42>img{
+    width: 450px;
+    height: 300px;
+    margin-top: 160px;
+    margin-left: 40px;
+}
+.cont42>h2{
+    font-weight: bold;
+    margin-left: 110px; 
+    font-size: 25px;
+    color: white;
+    font-family: 'custom';
+    src: url(custom.otf) 
+}
+@font-face {
+    font-family: 'custom';
+    src: url(custom.otf);
+}
+.cont42>button{
+    margin-left: 180px;
+    border-radius: 50px;
+    padding: 10px 30px;
+    margin-top: 8px;
+    border: 2px solid white;
+    background-color: #042464;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+.container5{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    background-image: url(pepsi.comimages/bg-2-desktop@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 100px;
+    background-color: #042464;
+    /* justify-content: space-evenly;
+    align-content: stretch; */
+}
+.cont51{
+    width: 620px;
+    height: 600px;
+
+}
+#head{
+    width: 950px;
+    height: 480px;
+    /* margin-top: 120px;
+    margin-left: -20px; */
+}
+.container6{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+.cont52{
+    height: 600px;
+    width: 813px;
+    margin-left: -104px;
+}
+.cont52>img{
+    height: 599px;
+    width: 813px;
+    margin-top: 0px;
+}
+#head{
+    width: 345.406px;
+    height: 250.328px;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+.cont51>img{
+    width: 300px;
+    height: 20px;
+    margin-top: 210px;
+    margin-left: 65px;
+}
+.container6{
+    display: flex;
+    background-image: url(pepsi.comimages/PEP_BWP_D.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px 400px;
+    background-position-x: 600px;
+    background-color: #042464;
+    flex-direction: column;
+    margin: auto;
+}
+.cont61>img{
+    width: 500px;
+    height: 200px;
+    margin-top: 50px;
+}
+.cont62>img{
+    width: 500px;
+    height: 200px;
+}
+.container7{
+    background-color: #0469bb;
+    background-repeat: no-repeat;
+    background-position: cover;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    /* justify-content: space-around;
+    align-content: space-evenly; */
+}
+.container7>img{
+    height: 590px;
+    width: 50%;
+    margin-left: 120px;
+}
+.container7>h2>img{
+    width: 400px;
+    height: 250px;
+    margin-top: 140px;
+}
+.container8{
+    width: 100%;
+    height: 500px;
+    background-color: #0065c3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.cont81{
+    width: 40%;
+    height: 300px;
+    margin-top: 140px;
+}
+.cont81>h2{
+    font-size: 40px;
+    color: white;
+    font-family: 'custom';
+    src: url(custom.otf) ;
+}
+.cont81>p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 13px;
+    color: white;
+}
+.cont81>button{
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 50px;
+    padding: 5px 23px;
+    background-color: inherit;
+    color: white;
+    border: 2px solid white;
+}
+.cont81>button:hover{
+    background-color: white;
+    color: #0065c3;
+    cursor: pointer;
+}
+.cont82{
+    width: 30%;
+    height: 200px;
+    margin-top: 140px;
+}
+.cont82>img{
+    width: 450px;
+    height: 250px;
+}
+.container9{
+    width: 100%;
+    height: 280px;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+/* .conttainer9>h2{
+    width: 100%;
+} */
+/* .cont90{
+    width: 100%;
+} */
+/* .cont90{
+    height: 50px;
+    margin: auto;
+    width: 350px;
+} */
+.cont90>h2{
+    text-align: center;
+    font-family: 'custom';
+    font-size: 60px;
+    color: #0065c3;
+}
+.cont99{
+    display: flex;
+    justify-content: center;
+
+}
+.cont99>div>img{
+    width: 197px;
+    height: 197px;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #0065c3;
+}
+.footer>div>img{
+    margin-top: 120px;
+    height: 80px;
+    width: 80px;
+
+}
+.footer>ul{
+    margin-top: 140px;
+    list-style: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'sofia';
+}
+.footer>div>button{
+    margin-top: 130px;
+    border-radius: 50px;
+    border: 2px solid white;
+    color: white;
+    background-color: inherit;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+@font-face {
+    font-family: sofia;
+    src: url(sofiapro-light.otf);
+}
+.footer>div>button:hover{
+    background-color: #fff;
+    color: #0065c3;
+    cursor: pointer;
+}
+.cont42>button:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #0469bb;
+}
+.contchild2>button:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #042464;
+}
